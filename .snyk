@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lerna > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - stylelint-scss > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - gh-pages > async > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - lerna > conventional-changelog-cli > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - lerna > inquirer > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - stylelint-config-palantir > stylelint-order > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - stylelint-config-palantir > stylelint-scss > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - lerna > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - stylelint-config-palantir > stylelint-order > postcss-sorting > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - lerna > conventional-changelog-cli > conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - lerna > conventional-changelog-cli > conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
+    - lerna > conventional-changelog-cli > conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2020-04-30T21:35:19.723Z'
