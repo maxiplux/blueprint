@@ -30,7 +30,9 @@
     "site": "npm-run-all site:clean -p copy:* -s serve",
     "site:clean": "git clean -xdfq site/",
     "test": "lerna run --parallel test",
-    "verify": "npm-run-all -s compile dist:libs dist:apps -p test lint"
+    "verify": "npm-run-all -s compile dist:libs dist:apps -p test lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@types/chai": "4.1.7",
@@ -55,7 +57,8 @@
     "stylelint-config-palantir": "^4.0.0",
     "stylelint-scss": "^3.9.2",
     "typescript": "~3.5.3",
-    "yarn-deduplicate": "^1.1.1"
+    "yarn-deduplicate": "^1.1.1",
+    "snyk": "^1.316.1"
   },
   "resolutions": {
     "js-yaml": "3.13.1"
@@ -68,5 +71,6 @@
     "url": "git@github.com:palantir/blueprint.git"
   },
   "author": "Palantir Technologies",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "snyk": true
 }
