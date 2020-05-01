@@ -7,7 +7,9 @@
   "scripts": {
     "clean": "rm -rf src/generated/*",
     "compile": "node ./compile-docs-data.js",
-    "test": "exit 0"
+    "test": "exit 0",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@blueprintjs/core": "^3.18.0",
@@ -19,7 +21,8 @@
     "language-less": "github:atom/language-less",
     "marked": "^0.7.0",
     "semver": "^6.3.0",
-    "tree-sitter-typescript": "^0.15.1"
+    "tree-sitter-typescript": "^0.15.1",
+    "snyk": "^1.316.1"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,6 @@
     "directory": "packages/docs-data"
   },
   "author": "Palantir Technologies",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "snyk": true
 }
