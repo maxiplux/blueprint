@@ -9,14 +9,17 @@
     "clean": "rm -rf lib/*",
     "dev": "yarn compile --watch",
     "lint": "ts-lint",
-    "test": "exit 0"
+    "test": "exit 0",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "chai": "^4.2.0",
     "core-js": "^3.1.4",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-15": "^1.4.0",
-    "enzyme-adapter-react-16": "^1.14.0"
+    "enzyme-adapter-react-16": "^1.14.0",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "react": ">=15.3.0"
@@ -31,5 +34,6 @@
     "directory": "packages/test-commons"
   },
   "author": "Palantir Technologies",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "snyk": true
 }
