@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - karma > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - karma-coverage > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > awesome-typescript-loader > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > node-sass > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > webpack-bundle-analyzer > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > node-sass > sass-graph > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > source-map-loader > async > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > node-sass > gaze > globule > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - '@blueprintjs/webpack-build-scripts > webpack-dev-server > portfinder > async > lodash':
+        patched: '2020-05-01T02:27:49.200Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:27:49.200Z'
